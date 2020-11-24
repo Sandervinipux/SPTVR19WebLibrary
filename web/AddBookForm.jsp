@@ -13,11 +13,11 @@
     </head>
     <body>
         <h1>Добавить книгу</h1>
-        <form action="" method="POST">
+        <form action="create Book" method="POST">
             Название книги: <input type="text" name="name" value=""><br>
             Автора книги: <input type="text" name="author" value=""><br>
             Год издания книги: <input type="text" name="publishedYear" value=""><br>
-            <input type="submit" name="submit" value="Отправить"
+            <input type="submit" name="submit" value="Отправить"><br>
         </form>
     </body>
 </html>
